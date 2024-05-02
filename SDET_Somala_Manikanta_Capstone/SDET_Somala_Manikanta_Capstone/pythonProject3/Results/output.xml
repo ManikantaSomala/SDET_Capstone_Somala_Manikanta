@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1 (Python 3.11.2 on win32)" generated="20230714 12:28:11.581" rpa="false" schemaversion="4">
+<suite id="s1" name="Radiobutton" source="C:\Users\MANIKANTASOMALA\PycharmProjects\pythonProject3\mani\radiobutton.robot">
+<test id="s1-t1" name="checking radio buttons and check boxes" line="9">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230714 12:28:11.996" level="INFO">Opening browser 'chrome' to base url 'https://www.tutorialspoint.com/selenium/selenium_automation_practice.htm'.</msg>
+<msg timestamp="20230714 12:28:11.996" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20230714 12:28:11.996" level="FAIL">TypeError: WebDriver.__init__() got an unexpected keyword argument 'service_log_path'</msg>
+<status status="FAIL" starttime="20230714 12:28:11.996" endtime="20230714 12:28:12.010"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20230714 12:28:12.010" endtime="20230714 12:28:12.010"/>
+</kw>
+<kw name="Select Radio Button" library="SeleniumLibrary">
+<arg>sex</arg>
+<arg>Male</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="NOT RUN" starttime="20230714 12:28:12.010" endtime="20230714 12:28:12.010"/>
+</kw>
+<kw name="Select Radio Button" library="SeleniumLibrary">
+<arg>exp</arg>
+<arg>6</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="NOT RUN" starttime="20230714 12:28:12.016" endtime="20230714 12:28:12.016"/>
+</kw>
+<status status="FAIL" starttime="20230714 12:28:11.996" endtime="20230714 12:28:12.016">TypeError: WebDriver.__init__() got an unexpected keyword argument 'service_log_path'</status>
+</test>
+<status status="FAIL" starttime="20230714 12:28:11.581" endtime="20230714 12:28:12.016"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Radiobutton">Radiobutton</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
